@@ -736,6 +736,7 @@ const styles = StyleSheet.create({
   centerSection: {
     alignItems: 'center',
     marginVertical: scaleHeight(10),
+    width: '100%',
   },
 
   subTitle: {
@@ -754,28 +755,28 @@ const styles = StyleSheet.create({
   },
 
   currencyPrefix: {
-    fontSize: scaleWidth(42),
+    fontSize: scaleWidth(38),
     lineHeight: scaleWidth(50),
     marginRight: scaleWidth(6),
-    includeFontPadding: false,
+    // includeFontPadding: false,
     textAlignVertical: 'center',
   },
 
   amountInput: {
-    fontSize: scaleWidth(42),
-    lineHeight: scaleWidth(50),
-    fontWeight: '700',
+    fontSize: scaleWidth(38),
+    // lineHeight: scaleWidth(50),
+    fontWeight: '600',
     color: colors.foreground,
-    textAlign: 'left',
-    textAlignVertical: 'center',
+    // textAlign: 'left',
+    // textAlignVertical: 'center',
     includeFontPadding: false,
-    paddingTop: 0,
-    paddingBottom: 0,
-    paddingLeft: 0,
-    paddingRight: 0,
-    margin: 0,
-    height: scaleWidth(50),
-    backgroundColor: 'transparent',
+    // paddingTop: 0,
+    // paddingBottom: 0,
+    // paddingLeft: 0,
+    // paddingRight: 0,
+    // margin: 0,
+    // height: scaleWidth(50),
+    // backgroundColor: 'transparent',
   },
 
   plansCard: {
