@@ -1194,7 +1194,7 @@ const PaymentSuccessScreen = () => {
         )}
 
         {/* ================= BOTTOM ACTIONS ================= */}
-        {/* {!isProcessing && (
+        {!isProcessing && (
           <Animated.View
             style={[styles.bottomAction, buttonAnimatedStyle]}>
             <FIButton
@@ -1213,7 +1213,7 @@ const PaymentSuccessScreen = () => {
               Done
             </FIButton>
 
-            <TouchableOpacity
+            {/* <TouchableOpacity
               activeOpacity={0.7}
               onPress={handleViewOrder}
               style={styles.viewOrderButton}>
@@ -1224,9 +1224,9 @@ const PaymentSuccessScreen = () => {
                 align="center">
                 View order details
               </FIText>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
           </Animated.View>
-        )} */}
+        )}
       </View>
     </SafeAreaView>
   );
